@@ -1,1 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/*configuro el body*/
+body {
+  background-color: green;
+}
+/*configuro el card*/
+.card {
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 150px;
+}
+/*configuro suit top*/
+.suit1 {
+  float: left;
+  font-size: 70px;
+  margin-left: 10px;
+}
+/*configuro el suit bot*/
+.suit2 {
+  float: right;
+  transform: rotate(180deg);
+  font-size: 70px;
+
+  margin-right: 10px;
+}
+/*posicion el mix de numeros letras*/
+.mix {
+  margin: auto;
+  font-size: 70px;
+}
